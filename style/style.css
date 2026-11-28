@@ -133,16 +133,73 @@ nav {
         }
         .line{
             position: absolute;
-            top: 600px;
+            left: -11px;
             color: #191c21;
             background-color: #f1b500;
             padding: 30px;
             font-weight: 800;
-            width: 100%;
+            width: 102%;
             word-spacing: 40px;
+            overflow:none;
+            
             /* box-shadow:inset 0px 0px 10px #f1b500, 0px 0px 10px #f1b500; */
         }
+        .wep{
+            top: 600px;
+            transform: rotate(-7deg);
+        }
+        .net{
+            top: 680px;
+            transform: rotate(7deg);
+        }
     }
+    #skills-globe {
+
+position: absolute;
+inset: 0;
+z-index: 0;
+/* min-height: 700px; */
+}
+#skills {
+    margin-top: 50px;
+position: relative;  
+min-height: 700px;
+overflow: hidden;
+/* width: 100%; */
+background: #191c21;
+}
+.skills{
+    /* margin-top: 100px; */
+position: relative;
+z-index: 1;
+}
+    .special{
+
+/* color: #f1b5001d; */
+margin-bottom: 100px;
+background: linear-gradient(to bottom, #f1b50032, #f1b5001d, #3333ff00, #3333ff00);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 1px #f1b5000c;
+
+font-size: 120px;
+text-align: center;
+font-weight: 800;
+letter-spacing: 3px;
+position: relative;
+/* top: -100px; */
+margin: 0;
+
+}
+
+.special + p{
+margin: -50px 0 0 ;
+font-size: 20px;
+text-align: center;
+color: #797979;
+/* position: relative; */
+/* top: -100px; */
+}
     .body {
         width: 100%;
         padding: 0 100px 100px 100px ;
